@@ -1,5 +1,5 @@
-baseurl = "https://zhaohuabing.com"
-title = "AGWD"
+baseurl = "https://agwd-geostrategy.netlify.app"
+title = "AGWD Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -29,7 +29,7 @@ home = ["HTML", "RSS", "Algolia"]
   leancloud_app_key = ""
 
   # algolia site search
-  algolia_search = true
+  algolia_search = false
   algolia_appId = ""
   algolia_indexName = ""
   algolia_apiKey = ""
@@ -39,7 +39,7 @@ home = ["HTML", "RSS", "Algolia"]
   #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
   sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-  featured_tags = true 
+  featured_tags = false
   featured_condition_size = 1 
 
   # Baidu Analytics
@@ -56,7 +56,7 @@ home = ["HTML", "RSS", "Algolia"]
 
   friends = false
   bookmarks = false
-  about_me = true
+  about_me = false
 
   # Include any custom CSS and/or JS files, url or relative to /static folder
   #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
