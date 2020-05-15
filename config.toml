@@ -1,5 +1,5 @@
 baseurl = "https://zhaohuabing.com"
-title = "AGWD Blog"
+title = "AGWD"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -14,7 +14,7 @@ home = ["HTML", "RSS", "Algolia"]
 
 [params]
   header_image = "img/home-bg-jeep.jpg"
-  SEOTitle = "Geostrategy"
+  SEOTitle = "AGWD | Geostrategy"
   description = "Nope."
   keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
   slogan = "Geostrategy. Explained."
