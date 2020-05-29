@@ -1,6 +1,17 @@
 ---
-date: "2016-05-05T21:48:51-07:00"
-title: About
+date: "2014-04-09"
+image: street.jpg
+title: About Hugo
 ---
 
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. The theme was forked from [@jrutheiser/hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) and modified by [Yihui Xie](https://github.com/yihui/hugo-lithium).
+Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+
+It makes use of a variety of open source projects including:
+
+* [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
+* [https://github.com/alecthomas/chroma](https://github.com/alecthomas/chroma)
+* [https://github.com/muesli/smartcrop](https://github.com/muesli/smartcrop)
+* [https://github.com/spf13/cobra](https://github.com/muesli/smartcrop)
+* [https://github.com/spf13/viper](https://github.com/muesli/smartcrop)
+
+Learn more and contribute on [GitHub](https://github.com/gohugoio).
