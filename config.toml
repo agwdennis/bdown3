@@ -1,38 +1,49 @@
-baseurl = "/agwd-geostrategy.netlify.app"  # Include trailing slash
-title = "Newsroom"
-theme = "newsroom"
-author = "Weru"
-copyright = "Copyright © 2019, Weru and the Hugo Authors; all rights reserved."
-canonifyurls = true
-paginate = 3
-# Enable syntax highlighting
-# comment or delete lines 11 ~ 14
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses=true
-pygmentsOptions = "linenos=table"
+baseURL = "http://example.org/"
+DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "en-us"
+title = "AGWD"
+copyright = "This is a customized copyright."
+theme = "hugo-theme-diary"
+# googleAnalytics = "UA-123-45"
 
-# Alternatively, you can use chroma instead of pigments
-# to do so comment or delete lines 11 ~ 14 and uncomment lines 17 ~ 27
-# [markup]
-#   [markup.highlight]
-#     codeFences = true
-#     guessSyntax = false
-#     hl_Lines = ""
-#     lineNoStart = 1
-#     lineNos = true
-#     lineNumbersInTable = true
-#     noClasses = false
-#     # style = "monokai"
-#     tabWidth = 2
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
 
-# If you want to use disqus, uncomment the line below
-# disqusShortname = "yourdiscussshortname"
-
-# ids used below are not valid. Replace with valid ones
 [params]
-  # ga_analytics = "" # google analytics ID e.g UA-116386578-1
-  
-  # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
-  # twitter = "" # twitter handle e.g @weru
-  # blogDir = "blogFolderName" # uncomment and edit to exclude normal pages ... see issue #57
+subtitle = "Geostrategy. Explained."
+enableGitalk = true
+
+[params.gitalk]
+  owner = "user"
+  repo = "repo name"
+  client_id = "your client id"
+  client_secret = "your client secret"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4
